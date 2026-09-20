@@ -1,0 +1,26 @@
+{
+  "version": "0.5.6",
+  "platforms": {
+    "darwin-arm64": {
+      "version": "0.5.6",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
+      "expectedSize": 28416480,
+      "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
+      "filename": "deep-filter"
+    },
+    "win32-x64": {
+      "version": "0.5.6",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
+      "expectedSize": 29845504,
+      "sha256": "9a1bf72863ad92a6c8e317d740eb140dd1dfad3cb32b2e0436cebb77f5255ee8",
+      "filename": "deep-filter.exe"
+    },
+    "linux-x64": {
+      "version": "0.5.6",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-gnu",
+      "expectedSize": 31254816,
+      "sha256": "786411ab194e8a8b13ce82df5846e917d05719be642a84a6946bf8e147de9520",
+      "filename": "deep-filter"
+    }
+  }
+}

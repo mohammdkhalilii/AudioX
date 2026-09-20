@@ -1,0 +1,39 @@
+{
+  "name": "audiox",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Offline-first desktop voice audio cleaner powered by DeepFilterNet and FFmpeg",
+  "main": "dist/main/index.js",
+  "author": {
+    "name": "AudioX Contributors"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev:renderer": "vite",
+    "build:renderer": "vite build",
+    "build:main": "tsc -p tsconfig.node.json && cp src/preload/index.cjs dist/preload/index.cjs",
+    "build": "npm run build:main && npm run build:renderer",
+    "dev": "npm run build && npm start",
+    "test": "node --test tests/unit/runner.test.ts",
+    "test:vitest": "vitest run",
+    "start": "electron dist/main/index.js",
+    "package": "npm run build && electron-builder",
+    "package:zip": "ditto -c -k --keepParent release/mac-arm64/AudioX.app release/AudioX-mac-arm64.zip"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
+  }
+}
