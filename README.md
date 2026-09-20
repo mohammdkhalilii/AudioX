@@ -72,7 +72,7 @@ AudioX bundles FFmpeg but does not redistribute the DeepFilterNet binary. On fir
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/AudioX.git
+git clone https://github.com/mohammdkhalilii/AudioX.git
 cd AudioX
 
 # Install dependencies
