@@ -6,7 +6,8 @@
   "description": "Offline-first desktop voice audio cleaner powered by DeepFilterNet and FFmpeg",
   "main": "dist/main/index.js",
   "author": {
-    "name": "AudioX Contributors"
+    "name": "AudioX Contributors",
+    "email": "support@audiox.studio"
   },
   "license": "MIT",
   "scripts": {

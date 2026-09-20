@@ -36,7 +36,7 @@ const mockManifest: EngineManifest = {
       version: '0.5.6',
       url: 'https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe',
       expectedSize: 29845504,
-      sha256: '9a1bf72863ad92a6c8e317d740eb140dd1dfad3cb32b2e0436cebb77f5255ee8',
+      sha256: '75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915',
       filename: 'deep-filter.exe',
     },
     'linux-x64': {

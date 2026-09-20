@@ -38,6 +38,7 @@ nsis:
   allowToChangeInstallationDirectory: true
 linux:
   category: AudioVideo
+  maintainer: AudioX Contributors <support@audiox.studio>
   target:
     - target: AppImage
       arch:

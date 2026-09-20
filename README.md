@@ -1,8 +1,17 @@
-# AudioX
+<p align="center">
+  <img src="resources/logo.svg" alt="AudioX Logo" width="560" />
+</p>
 
-**AudioX** is a free, open-source, offline-first desktop voice audio cleaner. It removes background noise, hum, and room reverb from spoken-word recordings while preserving vocal clarity and standardizing broadcast loudness.
+<p align="center">
+  <strong>Free, open-source, offline-first desktop voice audio cleaner.</strong><br />
+  Remove noise, hum, and room reverb locally using deep learning. Broadcast-ready loudness standards.
+</p>
 
-AudioX runs locally on your machine using [Electron](https://www.electronjs.org/), [React](https://react.dev/), [FFmpeg](https://ffmpeg.org/), and [DeepFilterNet](https://github.com/Rikorose/DeepFilterNet). No cloud accounts, no subscriptions, and your audio files never leave your computer.
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg" alt="Platform" />
+  <img src="https://img.shields.io/badge/Offline-100%25%20Local-success.svg" alt="Offline" />
+</p>
 
 ---
 
