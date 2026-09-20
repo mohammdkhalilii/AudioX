@@ -16,6 +16,7 @@ extraResources:
   - from: resources/engine-manifest.json
     to: engine-manifest.json
 mac:
+  icon: resources/icon.icns
   category: public.app-category.audio-video
   target:
     - target: dmg
@@ -27,6 +28,7 @@ mac:
   identity: null
   hardenedRuntime: false
 win:
+  icon: resources/icon.ico
   target:
     - target: nsis
       arch:
@@ -37,6 +39,7 @@ nsis:
   perMachine: false
   allowToChangeInstallationDirectory: true
 linux:
+  icon: resources/icon.png
   category: AudioVideo
   maintainer: AudioX Contributors <support@audiox.studio>
   target:

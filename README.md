@@ -13,6 +13,20 @@
   <img src="https://img.shields.io/badge/Offline-100%25%20Local-success.svg" alt="Offline" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/mohammdkhalilii/AudioX/releases/latest">
+    <img src="resources/badges/download-macos.svg" alt="Download app for macOS" height="52" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/mohammdkhalilii/AudioX/releases/latest">
+    <img src="resources/badges/download-windows.svg" alt="Download for Windows" height="52" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/mohammdkhalilii/AudioX/releases/latest">
+    <img src="resources/badges/download-ubuntu.svg" alt="Download for Ubuntu" height="52" />
+  </a>
+</p>
+
 ---
 
 ## Features
