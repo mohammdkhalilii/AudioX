@@ -23,7 +23,7 @@
     "package:mac": "npm run build && electron-builder --mac --arm64",
     "package:win": "npm run build && electron-builder --win --x64",
     "package:linux:deb": "npm run build && electron-builder --linux deb --x64",
-    "package:linux:docker": "docker run --rm -v \"$PWD\":/project -w /project electronuserland/builder:wine /bin/bash -c \"npm run build && npx electron-builder --linux deb --x64\"",
+    "package:linux:docker": "npm run build && docker run --rm -v \"$PWD\":/project -w /project electronuserland/builder:wine /bin/bash -c \"npx electron-builder --linux deb --x64\"",
     "icons": "bash scripts/generate-icons.sh",
     "setup:binaries": "bash scripts/download-ffmpeg.sh",
     "package:zip": "ditto -c -k --keepParent release/mac-arm64/AudioX.app release/AudioX-mac-arm64.zip"
