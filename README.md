@@ -14,15 +14,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mohammdkhalilii/AudioX/releases/latest">
+  <a href="https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/AudioX-1.0.0-arm64.dmg">
     <img src="resources/badges/download-macos.svg" alt="Download app for macOS" height="52" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/mohammdkhalilii/AudioX/releases/latest">
+  <a href="https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/AudioX%20Setup%201.0.0.exe">
     <img src="resources/badges/download-windows.svg" alt="Download for Windows" height="52" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/mohammdkhalilii/AudioX/releases/latest">
+  <a href="https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/audiox_1.0.0_amd64.deb">
     <img src="resources/badges/download-ubuntu.svg" alt="Download for Ubuntu" height="52" />
   </a>
 </p>
@@ -49,12 +49,15 @@
 
 ---
 
-## Supported Operating Systems
+## Supported Operating Systems & Downloads
 
-Version 1 targets:
-- **macOS**: Apple Silicon (`arm64`), `.dmg` installer.
-- **Windows**: Windows 10/11 (`x64`), `.exe` NSIS installer.
-- **Linux**: Ubuntu / Debian / Fedora / Arch (`x64`), `.AppImage` and `.deb` packages.
+| Platform | Architecture | Format | Direct Download |
+| :--- | :--- | :--- | :--- |
+| **macOS** | Apple Silicon (`arm64`) | `.dmg` | [AudioX-1.0.0-arm64.dmg](https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/AudioX-1.0.0-arm64.dmg) |
+| **macOS** | Apple Silicon (`arm64`) | `.zip` | [AudioX-1.0.0-arm64-mac.zip](https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/AudioX-1.0.0-arm64-mac.zip) |
+| **Windows** | Intel / AMD (`x64`) | `.exe` | [AudioX Setup 1.0.0.exe](https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/AudioX%20Setup%201.0.0.exe) |
+| **Linux** | Debian / Ubuntu (`x64`) | `.deb` | [audiox_1.0.0_amd64.deb](https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/audiox_1.0.0_amd64.deb) |
+| **Linux** | Any Distribution (`x64`) | `.AppImage` | [AudioX-1.0.0.AppImage](https://github.com/mohammdkhalilii/AudioX/releases/download/v1.0.0/AudioX-1.0.0.AppImage) |
 
 ### First-Time OS Approval (Unsigned Releases)
 
