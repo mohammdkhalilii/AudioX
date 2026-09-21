@@ -38,11 +38,11 @@ jobs:
         shell: bash
         run: bash scripts/download-ffmpeg.sh current
 
-      - name: Run unit tests
-        run: npm test
-
       - name: Build application
         run: npm run build
+
+      - name: Run unit tests
+        run: npm test
 
       - name: Package desktop installer
         shell: bash
